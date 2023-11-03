@@ -19,6 +19,7 @@ setup(
     long_description_content_type="text/markdown",
     install_requires=[
         'python-etcd==0.4.5',
+        'etcd'
     ],
     zip_safe=False
 )
