@@ -9,7 +9,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name='python_etcd',
-    version='0.0.1',
+    version='0.4.5',
     description='Get configurable values from ETCD',
     url='https://github.com/shivank0103/python-etcd-project',
     author='Shivank',
