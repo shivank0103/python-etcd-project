@@ -8,7 +8,7 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 
 setup(
-    name='python_etcd',
+    name='cashifypythonetcd',
     version='0.4.5',
     description='Get configurable values from ETCD',
     url='https://github.com/shivank0103/python-etcd-project',
@@ -19,7 +19,7 @@ setup(
     long_description_content_type="text/markdown",
     install_requires=[
         'python-etcd==0.4.5',
-        'etcd'
+        'etcd==1.1.2 '
     ],
     zip_safe=False
 )
